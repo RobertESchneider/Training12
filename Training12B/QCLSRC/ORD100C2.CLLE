@@ -5,4 +5,6 @@
 000300161129                          TOLIB(QTEMP) NEWOBJ(DETORD) CST(*NO) +
 000400161129                          TRG(*NO)
 000401161129             OVRDBF     FILE(TMPDETORD) TOFILE(QTEMP/DETORD)
+000402170621
+000403170621             /* Kommentar hinzugefügt */
 000500161129             CALL       PGM(ORD100)
